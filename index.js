@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   const response = {
     email: "yungsci101@gmail.com", // HNG registered email
     current_datetime: new Date().toISOString(), // ISO 8601 format (UTC)
-    github_url: "https://github.com/yourusername/your-repo" // Replace with your GitHub repo URL
+    github_url: "https://github.com/Yung-sci/hng-stage0-backend.git" // Replace with your GitHub repo URL
   };
 
   res.json(response);
